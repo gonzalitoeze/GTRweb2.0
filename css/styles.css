@@ -1,0 +1,609 @@
+
+.Inicio{
+    background-image: linear-gradient(to bottom, gray,black);
+}
+header  {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: sticky;
+    top: 0%;
+    display: block;
+}
+.compras{
+    text-align:right;
+}
+.social{
+    position: fixed;
+    display: block;
+    margin-top: 0%;
+    list-style-type: none;
+}
+.imagenIndex{
+    width: 800px;
+    height: 300px;
+    margin-left: 260px;    
+}
+.sectionIndex{
+    display: grid;
+    grid-template-columns: 97% ;
+
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red; font-size: 250%;
+    font-weight: bold;
+    text-align: center;
+}
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: red; 
+    font-size: 180%;
+    text-align: center;
+}
+.nav_grid_index{
+    /* text-align: center; */
+    background-color: red;
+    width:103.2%;
+}
+
+.navGridIndex_ul{
+    display: grid;
+    grid-template-columns: repeat(4, 10fr);
+    grid-gap: 10px;
+    -ms-grid-row-align: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas: "section section section section";
+}
+
+.navGridIndex_a{
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+footer {
+    background-image: linear-gradient(to bottom black, gray);
+    width: 100%;
+    height: 100px;
+}
+.footer_index{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 70%;
+    text-align: right;
+    padding-top: 10%;
+}
+/*Nosotros.html*/
+.Nosotros {
+    background-image: linear-gradient(to top, black, gray);
+}
+.menuN{
+    
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position:sticky;
+    font-size: 100%;
+}
+header {
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    color: whitesmoke;
+    text-align: left;
+   
+}
+.compras{
+    text-align: right;
+    position:static;
+    top: 0%;
+    display: block;
+    
+}
+.social{
+    text-align: left;
+    position:fixed;
+    margin-top: 0%;
+    display:block;
+    list-style-type: none; 
+}
+main {
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    color:whitesmoke;
+}
+.h1N {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 180%;
+    text-align: center;
+    color: whitesmoke;
+}
+.h3N {
+    font-size: 250%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+}
+.pN{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    padding-right: 70px;
+}
+.imagen2{
+    width: 300px;
+    height: 300px;
+    padding-bottom: 40px;
+}
+.Historias-Insta{
+    width: 300px;
+    height: 300px;
+    padding-bottom: 40px;
+}
+.textN{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    color: whitesmoke;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+}
+footer {font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    font-size: 100%;
+text-align: right;}
+/*Productos.html*/
+.Productos{
+    background-image: linear-gradient(to top, black, gray);
+}
+.menu{
+    
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position:sticky;
+    font-size: 100%;
+}
+header {
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    color: whitesmoke;
+    text-align: left;
+   
+}
+.compras{
+    text-align: right;
+    position:static;
+    top: 0%;
+    display: block;
+    
+}
+.social{
+    text-align: left;
+    position:fixed;
+    display:block;
+    list-style-type: none; 
+    margin-top: 0%;
+}   
+.h1P {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    font-size: 250%;
+}
+.publicacionesGTR {
+    margin-left: 360px;
+    width: 600px;
+    height: 400px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.pP {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    font-size: 150%;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.catalogoRepuestos  {
+    font-size: 200%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    padding-left: 15px;
+}
+.repuestos {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 125%;
+    list-style-type: none;
+
+}
+.productosdes{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;    
+    color: whitesmoke;
+    font-size: 125%;
+}
+.footerP {font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    font-size: 100%;
+text-align: right;}
+/*Servicios.html*/
+.Servicios {
+    background-image: linear-gradient(to bottom, gray, black);
+    width: auto;
+    
+}
+header  {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    text-align: left;
+}
+.compras{
+    text-align: right;
+    position:static;
+    display: block;
+    
+}
+.social {
+    text-align: left;
+    position:fixed;
+    margin-top: 0%;
+    display:block;
+    list-style-type: none; 
+}
+main 
+.h1S {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    color: whitesmoke;  
+    font-size: 250%;
+    text-align: center;
+}
+.h3S {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    font-size: 150%; 
+    color: whitesmoke;
+    text-align: center;
+}
+section article{
+    align-content: space-around;
+}
+.bateria{
+    display:block;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.inyeccion{
+    display:block;
+    margin-top: -5%;
+    margin-left: 26%;
+}
+.rueda{
+    display:block;
+    margin-top: -5%;
+    margin-left: 32%;
+}
+.seguro{
+    display:block;
+    margin-top: -5%;
+    margin-left: 38%;
+}
+.amortig{
+    display:block;
+    margin-top: -5%;
+    margin-left: 44%;
+}
+.correa{
+    display:block;
+    margin-top: -5%;
+    margin-left: 50%;
+}
+.caroil{
+    display:block;
+    margin-top: -5%;
+    margin-left: 56%;
+}
+.piston{
+    display:block;
+    margin-top: -5%;
+    margin-left: 62%;
+}
+.obd2{
+    display:block;
+    margin-top: -5%;
+    margin-left: 68%;
+}
+.turbo{
+    display:block;
+    margin-top: -5%;
+    margin-left: 74%;
+}
+
+
+.footerS {font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    font-size: 100%;
+    text-align: right;
+    background-image: black;
+    padding-top: 19.99%;
+}
+/*Contactos.html*/
+.Contactos {
+    width: 600;
+    height: 600;
+    background-image: linear-gradient(to top, black, gray);
+}
+.menuC{
+    
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position:sticky;
+    font-size: 100%;
+}
+header {
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    color: whitesmoke;
+    text-align: left;
+   
+}
+.comprasC{
+    text-align: RIGHT;
+    position:static;
+    top: 0%;
+    display: block;
+}
+.socialC{
+    text-align: left;
+    position:fixed;
+    margin-top: 0%;
+    display:block;
+    list-style-type: none;
+}   
+.h1C {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 250%;
+    color: whitesmoke;
+    text-align:center;
+}
+.h3C {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 125%;
+    text-align: center;
+    color: whitesmoke;
+}
+.pC{
+    text-align: center;
+    font-size: 125%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.formulario{
+    list-style-type: none;
+    width: 450px;
+    margin-top: 5%;
+    margin-left: 40%;
+    padding: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.maps{
+    margin-left: 28%;
+}
+footer {font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    font-size: 100%;
+    text-align: right;
+}
+/*catálogo de repuestos dentro de Porductos.html*/
+.distribuciones{
+    background-image: linear-gradient(to top, black, gray);
+}
+.menuD{
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position:sticky;
+    font-size: 100%;
+}
+.comprasD{
+    text-align: right;
+    position:static;
+    top: 0%;
+    display: block;
+}
+.socialD{
+    text-align: left;
+    position:fixed;
+    display:block;
+    list-style-type: none; 
+    margin-top: 0%;
+}
+.pD{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 250%;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+    margin: 30px;
+    padding-top: 30px;
+}
+.subpD{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200%;
+    text-align: center;
+    color: whitesmoke;
+    margin-left: 7%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;
+    text-align: center;
+    color: whitesmoke;
+    padding-bottom: 30px;
+    
+}
+ul{
+    list-style-type: none; 
+}
+.mercedesbenzDistribucion{
+    Display: Flex;
+    Flex-direction: row;
+    Justify-content: center;
+    Align-items: center; 
+}
+.mercedesbenzDistribucion img{
+    width: 300px;
+    height: 300px;
+    padding-right: 180px;
+    padding-left: 110px;
+}
+/*pie de foto para las imágenes de las distribuciones de Mercedes Benz*/
+.kitDMB{
+    Display: Flex;
+    Flex-direction: row;
+    Justify-content: Center;
+    Align-items: center;
+}
+.kitDMB h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    padding-right: 150px;
+    padding-left: 110px;
+}
+.bmwDistribuciones{
+    Display: Flex;
+    Flex-direction: row;
+    Justify-content: Center;
+    Align-items: center;
+}
+.bmwDistribuciones  img{
+    width: 300px;
+    height: 300px;
+    padding-right: 180px;
+    padding-left: 110px;
+}
+.kitBMW{
+    Display: Flex;
+    Flex-direction: row;
+    Justify-content: Center;
+    Align-items: center;
+}/*pie de foto para las imágenes de las distribuciones de BMW*/
+.kitBMW h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    padding-right: 250px;
+    padding-left: 110px;
+}
+.audivwDistribuciones{
+    Display: Flex;
+    Flex-direction: row;
+    Justify-content: Center;
+    Align-items: center;
+}
+.audivwDistribuciones   img{
+    width: 300px;
+    height: 300px;
+    padding-right: 180px;
+    padding-left: 115px;
+}/*pie de foto para las imágenes de las distribuciones Audi*/
+.kitAUDI-VW{
+    Display: Flex;
+    Flex-direction: row;
+    Justify-content: Center;
+    Align-items: center;
+}
+.kitAUDI-VW h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    padding-right: 250px;
+    padding-left: 140px;
+}
+.alfaDistribuciones{
+    Display: Flex;
+    Flex-direction: row;
+    Justify-content: Center;
+    Align-items: center;
+}
+.alfaDistribuciones img{
+    width: 300px;
+    height: 300px;
+    padding-right: 180px;
+    padding-left: 115px;
+}
+/*pie de foto para las imágenes de las distribuciones Alfa Romeo y Fiat*/
+.kitAlfa{
+    Display: Flex;
+    Flex-direction: row;
+    Justify-content: Center;
+    Align-items: center;
+}
+.kitAlfa    h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    padding-right: 150px;
+    padding-left: 110px;
+    flex-direction: column;
+}
+/*catálogo de repuestos dentro de Porductos.html*/
+.baterias{
+    background-color: gray;
+    height: 25%;
+}
+.color_header{
+    background-color: red;
+    width: 100%;
+    height: 20px;
+}
+.comprasb{
+    text-align: right;
+    display: block;
+    margin-top: 17%;
+}
+.socialb{
+    text-align: left;
+    position:fixed;
+    display:block;
+    list-style-type: none; 
+    margin-top: -3%;    
+}
+.main_color{
+    background-color:   black;
+    width: 100%;
+    height: 200px;   
+}
+.slogan_baterias{
+    padding-top: 1%;
+    background-image: gray;
+}
+.h1b{   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    font-size: 250%;
+}
+.h3b{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    font-size: 180%;
+}
+.h3-2{
+    color: black;
+    font-size: 150%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.article_color{
+    display: grid;
+    background-color: gray;
+    padding-top: 5%;
+}
+.bat_moura_williard{
+    grid-template-columns:75px 80px 105px;
+    grid-template-rows: 100px 50px 75px;
+    background-color: whitesmoke;
+}
