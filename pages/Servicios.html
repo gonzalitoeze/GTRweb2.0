@@ -6,27 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Servicios GTR</title>
     <link rel="shortcut icon" href="../images/favicoon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="../styles.css">
     
 </head>
 <body   class="Servicios">
 
     <header>
         <nav>
-            <ul>
-                <div class="menuS">
-                    <a href="../index.html">Inicio</a>
-                    <a href="Nosotros.html">Nosotros</a>
-                    <a href="Productos.html">Productos</a>
-                    <a href="Contactos.html">Contactos</a>
+            <ul class="nav_grid_Servicios">
+                <div class="navGridMenuServicios_ul">
+                    <div    class="NosIND"><li class="navGridIndex_li1"><a class="navGridIndex_a" href="../index.html">Inicio</a></li></div>
+                    <div    class="NosIND"><li class="navGridIndex_li2"><a  class="navGridIndex_a" href="Nosotros.html">Nosotros</a></li></div>
+                    <div    class="NosIND"><li class="navGridIndex_li3"><a class="navGridIndex_a" href="Productos.html">Productos</a></li></div>
+                    <div    class="NosIND"><li class="navGridIndex_li4"><a class="navGridIndex_a" href="Contactos.html">Contactos</a></li></div>
                 </div>
 
-                <div class="compras">
+                <div class="comprasServicios">
                         <a href="Productos.html"><img src="../images/carrito-de-compras.png"></a>
                         <a href="https://www.google.com/webhp?hl=es&sa=X&ved=0ahUKEwijr-yGsb72AhVPqZUCHefcDYMQPAgI" target="blank"><img src="../images/google.png"></a>
                 </div>
     
-                <div class="social">
+                <div class="GridSocialServicios">
                         <li><a href="https://facebook.com/" target="_blank"><img src="../images/facebook.png"></a></li>
                         <li><a href="https://www.instagram.com/gtrperformanceok/?hl=es"target="_blank"><img src="../images/instagram.png"></a></li>
                         <li><a href="https://www.whatsapp.com/"target="_blank"><img src="../images/whatsapp.png"></a></li>
@@ -38,36 +40,23 @@
 
     <main>
         <h1 class="h1S">Servicios Multimarca</h1>
-        <h3 class="h3S">Solicite turnos a través de <a class="contactos" href="../pages/Contactos.html">contactos</a></h3>
+        <h3 class="h3S">Solicite turnos a través de <a href="Contactos.html">contactos</a></h3>
         
         <section>
-            <!--COLOCAR IMÁGENES DE TIPOS DE SERVICIOS (DIAGNÓSTICOS COMPUTARIZADOS, ABS, FRENOS, DISTRIBUCIONES, EMBRAGUES, SERVICIOS, INYECCIÓN ELECTRÓNICA, BATERÍAS)-->
-                <article>
-                    <ul>
-                    <img class="bateria" src="../images/battery.png ">
-            
-                    <img class="inyeccion" src="../images/motor-del-coche.png">
-
-                    <img class="rueda" src="../images/rueda.png">
-            
-                    <img class="seguro" src="../images/seguro-de-auto.png">
-
-                    <img class="amortig" src="../images/shocksabsorber.png">
-
-                    <img class="correa" src="../images/car.png">
-
-                    <img class="caroil" src="../images/car-oil.png">
-
-                    <img class="piston" src="../images/piston.png">
-
-                    <img class="obd2" src="../images/OBDII.png">
-
-                    <img class="turbo" src="../images/turbo.png"
-                    
-                    </ul>
-
-                </article>
-
+            <div class="GridImagenS">
+                
+                <div    class="BateriaGrid"><img class="FirstRow" src="../images/battery.png "><p class="textoServicios">Baterias</p></div>
+                <div    class="BateriaGrid"><img class="FirstRow" src="../images/motor-del-coche.png"><p class="textoServicios">Inyección</p></div>        
+                <div    class="BateriaGrid"><img class="FirstRow" src="../images/rueda.png"><p class="textoServicios">Neumáticos</p></div>            
+                <div    class="BateriaGrid"><img class="FirstRow" src="../images/seguro-de-auto.png"><p class="textoServicios">Inspecciónes generales</p></div>
+                <div    class="InyeccionGrid"><img class="SecondRow" src="../images/shocksabsorber.png"><p class="textoServicios">Suspensión</p></div>
+                <div    class="InyeccionGrid"><img class="SecondRow" src="../images/car.png"><p class="textoServicios">Correas</p></div>
+                <div    class="InyeccionGrid"><img class="SecondRow" src="../images/car-oil.png"><p class="textoServicios">Service Oil</p></div>
+                <div    class="InyeccionGrid"><img class="SecondRow" src="../images/piston.png"><p class="textoServicios">Mecánica integral</p></div>
+                <div><img class="ThirdRow" src="../images/OBDII.png"><p class="textoServicios">Diagnósis computarizada</p></div>
+                <div><img class="ThirdRow" src="../images/turbo.png"><p class="textoServicios">Potenciación</p></div>
+                
+            </div>  
         </section>
     </main>
 

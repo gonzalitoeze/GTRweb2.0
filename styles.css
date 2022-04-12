@@ -1,5 +1,6 @@
-
-.Inicio{
+.InicioIndex{
+    display: grid;
+    grid-template-columns: 11fr;
     background-image: linear-gradient(to bottom, gray,black);
 }
 header  {
@@ -9,31 +10,43 @@ header  {
     display: block;
 }
 .compras{
-    text-align:right;
+    display: grid;
+    grid-column-gap: 6px;
 }
-.social{
-    position: fixed;
-    display: block;
-    margin-top: 0%;
-    list-style-type: none;
+.GridSocialIndex{
+    display: grid;
+    grid-row-gap: 15%;
+
 }
-.imagenIndex{
-    width: 800px;
-    height: 300px;
-    margin-left: 260px;    
+.imagen_Index{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 19%;
+    width: 60%;
+    height: 82%;
+    transition: all 3s;
+}
+.imagen_Index:hover{
+    height: 87%;
+    width: 64%;
+    background-color: red;
+    
+       
 }
 .sectionIndex{
     display: grid;
-    grid-template-columns: 97% ;
-
+    grid-template-columns: 100% ;
 }
-h1 {
+.h1I {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: red; font-size: 250%;
+    color: red; 
+    font-size: 250%;
     font-weight: bold;
     text-align: center;
 }
-h3 {
+.h3I {
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     color: red; 
     font-size: 180%;
@@ -42,7 +55,8 @@ h3 {
 .nav_grid_index{
     /* text-align: center; */
     background-color: red;
-    width:103.2%;
+    width:100%;
+    height: 75px;
 }
 
 .navGridIndex_ul{
@@ -63,50 +77,151 @@ h3 {
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
+    justify-items: 15px;
+}
+.NosIND{
+    display: grid;
+    align-content: center;
+    width: 100%;
+    height: 82%;
+    transition: all 1s;
+    
+}
+.NosIND:hover{
+    height: 87%;
+    width: 100%;
+    background-color: red;
+    font-weight: bold;
 }
 
-footer {
-    background-image: linear-gradient(to bottom black, gray);
+.footerIndex {
+    background-image: linear-gradient(to bottom black gray);
     width: 100%;
-    height: 100px;
+    
 }
 .footer_index{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
+    color: white;
     font-size: 70%;
     text-align: right;
     padding-top: 10%;
+}
+/*tamaño tablet*/
+@media screen and (max-width:768px){
+
+    .InicioIndex{
+        grid-template-columns: repeat(3, 100fr);
+        height: 100%;
+        grid-template-areas: 
+        "header header header"
+        "main main main"
+        "footer footer footer"
+    
+    }
+    .compras{
+        grid-template-columns: auto;
+        align-items: right;
+        justify-content: right;
+    }
+    .GridSocialIndex{
+        grid-template-columns: repeat(4, 20%);
+        align-items: center;
+        justify-content:center;
+        
+    }
+    header{
+        grid-area: header;
+        background-color: none;
+    }
+
+    .imagen_Index{
+        grid-template-columns: repeat(4, 20%);
+        
+    }
+    .h1I{
+        font-size: 100%;
+        margin-right: 10%;
+    }
+    .h3I{
+        font-size: 100%;
+        margin-right: 10%;
+    }
+    .nav_grid_index{
+        grid-template-columns: repeat(4, 75px);
+        width: 99%;
+        grid-template-areas: 
+        "nav nav nav"
+        
+    }
+    .navGridIndex_ul{
+        grid-template-columns: repeat(4, 105px);
+        align-items: center;
+        justify-content: center;
+    }
+    .navGridIndex_a{
+        /* font-size:100%; */
+        font-size: 12px;
+       
+    }
+    .footerIndex{
+        background-image: black;
+        grid-template-columns: repeat(4, 105px);
+    }
+    .footerIndex{
+        background-image: black;
+        grid-template-areas: "footer footer footer";
+        grid-area: footer;
+        width: 100%;
+        
+    }
+
 }
 /*Nosotros.html*/
 .Nosotros {
     background-image: linear-gradient(to top, black, gray);
 }
-.menuN{
+.nav_grid_Nosotros{
+    background-color: red;
+    width:  100%;
+    height: 75px;
+    justify-content: center;
+
+}
+.navGridMenuNosotros_ul{
+    display: grid;
+    grid-template-columns: repeat(4, 10fr);
+    grid-gap: 10px;
+    -ms-grid-row-align: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas: "section section section section";
+}
+/*.menuN{
     
     color: black;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    position:sticky;
+    position:static;
     font-size: 100%;
-}
+}*/
 header {
     font-family:Verdana, Geneva, Tahoma, sans-serif; 
     color: whitesmoke;
     text-align: left;
    
 }
-.compras{
+.comprasNosotros{
     text-align: right;
     position:static;
     top: 0%;
     display: block;
     
 }
-.social{
-    text-align: left;
-    position:fixed;
-    margin-top: 0%;
-    display:block;
-    list-style-type: none; 
+.GridSocialNosotros{
+   display: grid;
+   grid-row-gap: 15%;
 }
 main {
     font-family:Verdana, Geneva, Tahoma, sans-serif; 
@@ -132,44 +247,60 @@ main {
     padding-left: 80px;
     padding-right: 70px;
 }
+.imagenes_Nosotros{
+    display: flex;
+    Flex-direction:row;
+    Justify-content:Center;
+    Align-items: center;
+}
 .imagen2{
-    width: 300px;
-    height: 300px;
-    padding-bottom: 40px;
+    width: 30%;
+    height: 30%;
+    margin-right: 20%;
 }
 .Historias-Insta{
-    width: 300px;
-    height: 300px;
-    padding-bottom: 40px;
+    width: 30%;
+    height: 400px;
 }
 .textN{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 100%;
     color: whitesmoke;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 50px;
+    margin: 5.5%;
+    text-align: center;
 }
-footer {font-family: Verdana, Geneva, Tahoma, sans-serif;
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 70%;
+    text-align: right;
+    padding-top: 10%;   
+    /*font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: whitesmoke;
     font-size: 100%;
-text-align: right;}
+    text-align: right;*/
+}
 /*Productos.html*/
 .Productos{
     background-image: linear-gradient(to top, black, gray);
 }
-.menu{
-    
-    color: black;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    position:sticky;
-    font-size: 100%;
+.nav_grid_Productos{
+    background-color: red;
+    width:  100%;
+    height: 75px;
+    justify-items: center;
 }
-header {
-    font-family:Verdana, Geneva, Tahoma, sans-serif; 
-    color: whitesmoke;
-    text-align: left;
-   
+.navGridMenuProductos_ul{
+    display: grid;
+    grid-template-columns: repeat(4, 10fr);
+    grid-gap: 10px;
+    -ms-grid-row-align: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas: "section section section section";
 }
 .compras{
     text-align: right;
@@ -178,14 +309,12 @@ header {
     display: block;
     
 }
-.social{
-    text-align: left;
-    position:fixed;
-    display:block;
-    list-style-type: none; 
-    margin-top: 0%;
-}   
-.h1P {
+.GridSocialProductos{
+    display: grid;
+    grid-row-gap: 15%;
+}
+ 
+.h1Productos{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: whitesmoke;
@@ -212,49 +341,62 @@ header {
     font-size: 200%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: whitesmoke;
-    text-align: center;
-    padding-left: 15px;
+    margin-left: 35%;
 }
 .repuestos {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 125%;
     list-style-type: none;
+    text-align: center;
 
 }
 .productosdes{
     font-family:Verdana, Geneva, Tahoma, sans-serif;    
     color: whitesmoke;
     font-size: 125%;
+    padding-top: 2%;
 }
-.footerP {font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: whitesmoke;
-    font-size: 100%;
-text-align: right;}
+.footerProd {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 10%;
+    text-align: right;
+    padding-top: 10%;
+}
 /*Servicios.html*/
 .Servicios {
     background-image: linear-gradient(to bottom, gray, black);
     width: auto;
+}
+.nav_grid_Servicios{
+    background-color: red;
+    width:100%;
+    height: 75px;
+    margin-right: 10%;
+    
     
 }
-header  {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: whitesmoke;
-    text-align: left;
+.navGridMenuServicios_ul{
+    display: grid;
+    grid-template-columns: repeat(4, 10fr);
+    -ms-grid-row-align: center;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas: "section section section section";
 }
-.compras{
+.comprasServicios{
     text-align: right;
-    position:static;
+    position: static;
+    top: 0%;
     display: block;
     
 }
-.social {
-    text-align: left;
-    position:fixed;
-    margin-top: 0%;
-    display:block;
-    list-style-type: none; 
-}
-main 
+.GridSocialServicios {
+    display:grid;
+    grid-row-gap: 15%;
+} 
 .h1S {
     font-family: Verdana, Geneva, Tahoma, sans-serif;  
     color: whitesmoke;  
@@ -267,10 +409,40 @@ main
     color: whitesmoke;
     text-align: center;
 }
-section article{
-    align-content: space-around;
+.GridImagenS {
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    grid-auto-rows: 60%;
+    padding-left: 25%;
+    margin-top: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    
+    
+    /*display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(3, 200px)
+    grid-template-areas: "batería batería batería batería";
+    grid-column-gap:;
+    grid-row-gap:;
+    */
+    
 }
-.bateria{
+.FirstRow{
+    width: 40%;
+}
+.SecondRow{
+    width: 40%;
+}
+.ThirdRow{
+    width: 40%;
+}
+/*.BateriaGrid{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}*/
+/*.bateria{
     display:block;
     margin-left: 20%;
     margin-top: 5%;
@@ -281,7 +453,7 @@ section article{
     margin-left: 26%;
 }
 .rueda{
-    display:block;
+    /*display:block;
     margin-top: -5%;
     margin-left: 32%;
 }
@@ -301,7 +473,7 @@ section article{
     margin-left: 50%;
 }
 .caroil{
-    display:block;
+    :block;
     margin-top: -5%;
     margin-left: 56%;
 }
@@ -320,15 +492,74 @@ section article{
     margin-top: -5%;
     margin-left: 74%;
 }
+*/
 
-
-.footerS {font-family: Verdana, Geneva, Tahoma, sans-serif;
+.footerS {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: whitesmoke;
     font-size: 100%;
     text-align: right;
     background-image: black;
     padding-top: 19.99%;
 }
+
+
+@media screen and (max-width:768px) {
+
+    .Servicios{
+        grid-template-columns: repeat(3, 100fr);
+        height: 100%;
+        grid-template-areas: 
+        "header header header"
+        "main main main"
+        "section section section"
+        "footer footer footer"
+    }
+    .comprasServicios{
+        grid-template-rows: repeat(2, 10px);
+        align-items: right;
+        justify-content: right;
+    }
+    .GridSocialServicios{
+        display: grid;
+        grid-row-start: auto;
+        justify-content:start;
+        padding-top: 20%;
+    }
+    .h1S{
+        font-size: 20px;
+    }
+    
+    .h3S{
+        font-size: 10px;
+    }
+
+    .textoServicios{
+        font-size: 5px;
+    }
+    .GridImagenS {
+        display: grid;
+        grid-template-columns: repeat(3, 20%);
+        grid-auto-rows: 30%;
+        padding-left: 25%;
+        margin-top: 5%;
+        margin-left: 10%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+    }
+    .FirstRow{
+        width: 100%;
+    }
+    .SecondRow{
+        width: 100%;
+        }
+    .ThirdRow{
+        width: 100%;
+    }
+
+}
+
+
 /*Contactos.html*/
 .Contactos {
     width: 600;
@@ -349,17 +580,14 @@ header {
    
 }
 .comprasC{
-    text-align: RIGHT;
+    text-align: right;
     position:static;
     top: 0%;
     display: block;
 }
-.socialC{
-    text-align: left;
-    position:fixed;
-    margin-top: 0%;
-    display:block;
-    list-style-type: none;
+.GridSocialContactos{
+    display: grid;
+    grid-row-gap: 15%;
 }   
 .h1C {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -561,17 +789,58 @@ ul{
     width: 100%;
     height: 20px;
 }
-.comprasb{
-    text-align: right;
-    display: block;
-    margin-top: 17%;
+.nav_grid_battery{
+    display: grid;
+    background-color: red;
+    width: 100%;
+    height: 75px;
 }
-.socialb{
-    text-align: left;
-    position:fixed;
-    display:block;
-    list-style-type: none; 
-    margin-top: -3%;    
+.navGridBattery_ul{
+    display: grid;
+    grid-template-columns: repeat(5,22%);   
+    -ms-grid-row-align: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas: "section section section section";
+
+}
+.navGridBattery{
+    display: grid;
+    text-decoration:    none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 20px;
+    justify-items: center;
+
+    
+}
+.comprasb{
+    display: block;
+    text-align: right;
+    padding-top: 20%;
+    
+}
+.GridSocialBattery{
+    display:grid;
+    grid-row-gap: 15%;
+    padding-top: 0%;
+    margin-left: -1%;
+}
+.navBAT{
+    display: grid;
+    align-content: center;
+    width: 100%;
+    height: 82%;
+    transition: all 1s;
+    
+}
+.navBAT:hover{
+    height: 87%;
+    width: 100%;
+    background-color: red;
 }
 .main_color{
     background-color:   black;
