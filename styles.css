@@ -1,6 +1,6 @@
-.InicioIndex{
-    display: grid;
-    grid-template-columns: 11fr;
+body/*.InicioIndex*/{
+    /*display: grid;
+    grid-template-columns: 11fr;*/
     background-image: linear-gradient(to bottom, gray,black);
 }
 header  {
@@ -23,6 +23,13 @@ header  {
     display: grid;
     grid-row-gap: 15%;
 }
+.foto{
+    width: 2%;
+    transition: all 250ms;
+}
+.foto:hover{
+    width: 2.5%;    
+}
 .imagen_Index{
     display: flex;
     align-items: center;
@@ -31,49 +38,59 @@ header  {
     margin-left: 19%;
     width: 60%;
     height: 82%;
-    transition: all 3s;
+    transition: all 2s;
 }
 .imagen_Index:hover{
     height: 87%;
     width: 64%;
-    background-color: red;
+    /*background-color: red;*/
 }
 .sectionIndex{
     display: grid;
     grid-template-columns: 100% ;
 }
-.h1I {
+h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: red; 
     font-size: 450%;
     font-weight: bold;
     text-align: center;
 }
-.h3I {
+h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     color: white; 
     font-size: 280%;
     text-align: center;
+    padding-bottom: 5%;
+}
+.container-fluid{
+    background-color: red;
+    width: 100%;
+    height: 75px;
 }
 .col{
     background-color: red;
     width:100%;
     height: 75px;
-    font-size: 250%;
+    font-size: 200%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
     text-align: center;
-    justify-content: center;
     align-items: center;
-    margin-top: 5%;
-    text-decoration: none;
-    transition: all 1s;
+    padding-top: 1.5%;
+    /*text-decoration: none;*/
+    transition: all 500ms;
 }
 .col:hover{
     width: 100%;
-    height: 105px;
+    height: 100px;
     background-color: red;
     font-weight: bold;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
     text-decoration: none;
 }
 /*.nav_grid_index{
@@ -201,14 +218,14 @@ header  {
 
 }
 /*Nosotros.html*/
-.Nosotros {
+/*.Nosotros{
     background-image: linear-gradient(to top, black, gray);
-}
-.nav_grid_Nosotros{
+}*/
+/*.nav_grid_Nosotros{
     background-color: red;
     width:  100%;
     height: 75px;
-    /*justify-content: center;*/
+    /*justify-content: center;
 
 }
 .navGridMenuNosotros_ul{
@@ -223,7 +240,7 @@ header  {
     grid-auto-rows: minmax(100px, auto);
     grid-template-areas: "section section section section";
 }
-/*.menuN{
+.menuN{
     
     color: black;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -247,36 +264,53 @@ header {
 .GridSocialNosotros{
    display: grid;
    grid-row-gap: 15%;
+   
 }
-main {
-    font-family:Verdana, Geneva, Tahoma, sans-serif; 
-    color:whitesmoke;
+main{
+    margin-top: -7%;
+    /*font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    color:whitesmoke;*/
 }
-.h1N {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.h1N{
+    /*font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 180%;
     text-align: center;
+    color: whitesmoke;*/
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: whitesmoke;
+    font-size: /*250*/350%;
+    margin-top: 0%;
+    padding-bottom: 2%;
+    font-weight: bold;
 }
-.h3N {
+h3{
     font-size: 250%;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: whitesmoke;
+    font-weight:lighter;
+    padding-bottom: 2%;
+    
 }
-.pN{
+p{
     text-align: center;
+    align-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200%;
     color: whitesmoke;
-    padding-bottom: 40px;
-    padding-left: 80px;
-    padding-right: 70px;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+    padding-bottom: 2%;
+    
 }
 .imagenes_Nosotros{
     display: flex;
     Flex-direction:row;
     Justify-content:Center;
     Align-items: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
 }
 .imagen2{
     width: 30%;
@@ -287,14 +321,17 @@ main {
     width: 30%;
     height: 400px;
 }
-.textN{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+/*.container-fluid{
+   padding-bottom: 10%;
+}*/
+/*.text{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 100%;
     color: whitesmoke;
     margin: 5.5%;
     text-align: center;
-}
-footer {
+}*/
+.footerN{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     font-size: 70%;
@@ -309,7 +346,7 @@ footer {
 .Productos{
     background-image: linear-gradient(to top, black, gray);
 }
-.nav_grid_Productos{
+/*.nav_grid_Productos{
     background-color: red;
     width:  100%;
     height: 75px;
@@ -326,7 +363,7 @@ footer {
     height: 100px;
     grid-auto-rows: minmax(100px, auto);
     grid-template-areas: "section section section section";
-}
+}*/
 .compras{
     text-align: right;
     position:static;
@@ -340,51 +377,61 @@ footer {
     grid-row-gap: 15%;
     margin-left: -9%;
 }
- .col{
+ /*.col{
      margin-top: 0%;
- }
+ }*/
 .h1Productos{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: whitesmoke;
     font-size: /*250*/350%;
-    padding-top: 0%;
+    margin-top: 10%;
     padding-bottom: 3%;
     font-weight: bold;
 }
-/*.publicacionesGTR */
-.img-circle{
-    margin-left: 32%;
+/*img-circle */
+.publicacionesGTR{
+    margin-left: 35%;
     width: 30%;
     height: 30%;
-    /*padding-bottom: 15px;
-    padding-top: 15px;*/
+    padding-bottom: 5%;
+    /*padding-top: 15px;*/
     transition: all 2s;
 }
-.img-circle:hover{
-    width: 40%;
-    height: 40%;
+.publicacionesGTR:hover{
+    width: 35%;
+    height: 35%;
 }
-.pP {
+/*.pP {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: whitesmoke;
-    font-size: /*150%*/250%;
+    font-size: 150 250%;
     text-align: center;
     padding: 5%;
-}
-.catalogoRepuestos  {
-    font-size: /*200*/300%;
+}*/
+/*.catalogoRepuestos  {
+    font-size: 200/300%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: whitesmoke;
     margin-left: 35%;
+}*/
+.repuestos{
+    padding-bottom: 3%;
+    /*font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: /*125 225%;
+    list-style-type: none;
+    text-align: center;*/
 }
-.repuestos {
+.row-1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: /*125*/225%;
+    font-size: /*125*/ 220%;
     list-style-type: none;
     text-align: center;
+    transition: all 1s;
 }
-
+.row-1:hover{
+    font-size: 300%;
+}
 .productosdes{
     font-family:Verdana, Geneva, Tahoma, sans-serif;    
     color: whitesmoke;
@@ -399,7 +446,7 @@ footer {
     padding-top: 10%;
 }
 /*Servicios.html*/
-.Servicios {
+/*.Servicios {
     background-image: linear-gradient(to bottom, gray, black);
     width: auto;
 }
@@ -407,10 +454,7 @@ footer {
     background-color: red;
     width:100%;
     height: 75px;
-    margin-right: 10%;
-    
-    
-}
+    margin-right: 10%;}
 .navGridMenuServicios_ul{
     display: grid;
     grid-template-columns: repeat(4, 10fr);
@@ -454,16 +498,30 @@ footer {
     color: white;
     
     
-    /*display: grid;
+    display: grid;
     grid-template-columns: repeat(4, 300px);
     grid-template-rows: repeat(3, 200px)
     grid-template-areas: "batería batería batería batería";
     grid-column-gap:;
     grid-row-gap:;
-    */
+    
+    
+}*/
+#Servicios  img{
+    width: 100%;
+    padding: 30%;
+    transition: all 1s;
     
 }
-.FirstRow{
+#Servicios col-lg-4{
+    margin: 0;
+    padding-bottom: 40%;
+}
+#Servicios img:hover{
+    width: 110%;
+    border: 25px solid gray;
+}
+/*.FirstRow{
     width: 40%;
 }
 .SecondRow{
@@ -471,7 +529,7 @@ footer {
 }
 .ThirdRow{
     width: 40%;
-}
+}*/
 /*.BateriaGrid{
     width: 100%;
     height: 100%;
@@ -596,18 +654,17 @@ footer {
 
 
 /*Contactos.html*/
-.Contactos {
+/*.Contactos {
     width: 600;
     height: 600;
     background-image: linear-gradient(to top, black, gray);
-}
-.menuC{
-    
+}*/
+/*.menuC{
     color: black;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     position:sticky;
     font-size: 100%;
-}
+}*/
 header {
     font-family:Verdana, Geneva, Tahoma, sans-serif; 
     color: whitesmoke;
@@ -620,11 +677,11 @@ header {
     top: 0%;
     display: block;
 }
-.GridSocialContactos{
+/*.GridSocialContactos{
     display: grid;
     grid-row-gap: 15%;
-}   
-.h1C {
+}
+/*.h1C {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 250%;
     color: whitesmoke;
@@ -643,7 +700,7 @@ header {
     color: whitesmoke;
     margin-right: 10%;
     margin-left: 10%;
-}
+}*/
 .formulario{
     list-style-type: none;
     width: 450px;
@@ -655,8 +712,10 @@ header {
     box-sizing: border-box;
     border-radius: 10px;
 }
-.maps{
-    margin-left: 28%;
+iframe{
+    display: block;
+    margin-left: 23%;
+    padding-top: 5%;
 }
 footer {font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: whitesmoke;
@@ -668,7 +727,7 @@ footer {font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-image: linear-gradient(to top, black, gray);
 }
 .menuD{
-    color: black;
+    color: blue;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     position:sticky;
     font-size: 100%;
@@ -824,7 +883,7 @@ ul{
     width: 100%;
     height: 20px;
 }
-.nav_grid_battery{
+/*.nav_grid_battery{
     display: grid;
     background-color: red;
     width: 100%;
@@ -848,16 +907,11 @@ ul{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     font-size: 20px;
-    justify-items: center;
-
-    
-}
+    justify-items: center;}
 .comprasb{
     display: block;
     text-align: right;
-    padding-top: 20%;
-    
-}
+    padding-top: 20%;}
 .GridSocialBattery{
     display:grid;
     grid-row-gap: 15%;
@@ -870,17 +924,17 @@ ul{
     width: 100%;
     height: 82%;
     transition: all 1s;
-    
+
 }
 .navBAT:hover{
     height: 87%;
     width: 100%;
     background-color: red;
-}
-.main_color{
-    background-color:   black;
-    width: 100%;
-    height: 200px;   
+}*/
+#Bateria{
+    
+} .h1N{
+    color: white;  
 }
 .slogan_baterias{
     padding-top: 1%;
