@@ -13,7 +13,8 @@
 
     <link rel="stylesheet" href="../styles.css">
 </head>
-<body><!--class="Nosotros"-->
+<body>
+    <div  class="container"><!--class="Nosotros"-->
     <header>
         <nav>
             <!--<ul class="nav_grid_Nosotros">
@@ -34,8 +35,8 @@
                 </div>
             <ul>
                 <div class="compras1"><!--comprasNosotros-->
-                    <a href="Productos.html"><img src="../images/carrito-de-compras.png"></a>
-                    <a href="https://www.google.com/webhp?hl=es&sa=X&ved=0ahUKEwijr-yGsb72AhVPqZUCHefcDYMQPAgI" target="blank"><img src="../images/google.png"></a>
+                    <a href="Productos.html"><img   class="buscador" src="../images/carrito-de-compras.png"></a>
+                    <a href="https://www.google.com/webhp?hl=es&sa=X&ved=0ahUKEwijr-yGsb72AhVPqZUCHefcDYMQPAgI" target="blank"><img class="buscador" src="../images/google.png"></a>
                 </div>
 
                 <div class="GridSocialIndex">
@@ -47,7 +48,7 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main><!--class="container"-->
         <section>
             <article>
                  <!--Letra HIGHSPEED-->
@@ -58,14 +59,18 @@
                 El manejo de un gran equipamiento en herramientas y el stock permanente de productos originales nos permiten 
                 garantizar todos nuestros trabajos, además de mantener el compromiso con nuestros clientes.
                 </p>
-                <div    class="imagenes_Nosotros">
-                  <img  class="imagen2" src="../images/imagen2.png.png">
-            
-                  <img  class="Historias-Insta" src="../images/Historias-Insta.png">
+                <div  id="imagen_nosotros">
+                    <div    class="row">
+                        <div    class="col-5">
+                            <img src="../images/imagen2.png.png">
+                        </div>
+                        <div    class="col-5">
+                            <img src="../images/Historias-Insta.png">
+                        </div>
+                    </div>
                 </div>
-
-            </article>
-            <div    class="container"><!--class="text"-->
+            
+                <div><!--class="text"-->
                 <p><strong> OBJETIVO:</strong> 
                 Trabajar de forma consciente precisa y prolija. Cumplir con el tiempo y la espectativa del cliente.
                 Lograr un buen resultado para que el vehículo no tenga que volver por el mismo problema.</p>
@@ -87,8 +92,9 @@
                 Trabajar hoy en la reparacion y mantenimiento de estos sistemas requiere capacitacion e
                 inversion en equipos que resuelvan la problematica de los mismos, para esto fuimos adquiriendo
                 escanners, probadores, elementos de medición y una constante capacitación.</h3></p>
-            </div>
-            </section>
+                </div>
+            </article>  
+        </section>
 
     </main>
     <!--div    class="container-fluid">
@@ -104,6 +110,6 @@
         <h6>© GTR GROUP 2022</h6>
         
     </footer>
-
+    </div>
 </body>
 </html>

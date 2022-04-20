@@ -1,30 +1,41 @@
-body/*.InicioIndex*/{
-    /*display: grid;
-    grid-template-columns: 11fr;*/
+.container{
     background-image: linear-gradient(to bottom, gray,black);
+    width: 100%;
 }
-header  {
+header{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     position: sticky;
     top: 0%;
     display: block;
 }
-.compras1{
+ul{
+    list-style-type: none; 
+}
+/*.compras1{
     display: grid;
-    grid-template-columns: repeat(2, 2%);
+    grid-template-columns: repeat(2, 2.2%);
     -ms-grid-row-align: end;
     align-items: flex-end;
     justify-content: end;
     text-align: end;
     padding-top: 2%; 
-    
 }
 .GridSocialIndex{
     display: grid;
     grid-row-gap: 15%;
+}*/
+.compras1{
+    display: flex;
+    justify-content: end;
+    justify-items:  end;
+    align-items: end;
+    align-content:end;
+    text-align: end;
+    padding-top: 2%;
 }
 .foto{
     width: 2%;
+    padding-bottom: 1%;
     transition: all 250ms;
 }
 .foto:hover{
@@ -247,13 +258,13 @@ a:hover{
     position:static;
     font-size: 100%;
 }*/
-header {
+/*header {
     font-family:Verdana, Geneva, Tahoma, sans-serif; 
     color: whitesmoke;
     text-align: left;
    
-}
-.comprasNosotros{
+}*/
+/*.comprasNosotros{
     text-align: right;
     position:static;
     top: 0%;
@@ -265,9 +276,9 @@ header {
    display: grid;
    grid-row-gap: 15%;
    
-}
+}*/
 main{
-    margin-top: -7%;
+    margin-top: -8%;
     /*font-family:Verdana, Geneva, Tahoma, sans-serif; 
     color:whitesmoke;*/
 }
@@ -299,12 +310,17 @@ p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 200%;
     color: whitesmoke;
-    margin-left: 3.5%;
-    margin-right: 3.5%;
+    margin-left: 4%;
+    margin-right: 4%;
     padding-bottom: 2%;
-    
 }
-.imagenes_Nosotros{
+#imagen_nosotros img{
+    display: flex;
+    width: 100%;
+    height: 65%;
+    margin-left: 20%;
+}
+/*.imagenes_Nosotros{
     display: flex;
     Flex-direction:row;
     Justify-content:Center;
@@ -321,10 +337,7 @@ p{
     width: 30%;
     height: 400px;
 }
-/*.container-fluid{
-   padding-bottom: 10%;
-}*/
-/*.text{
+.text{
    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 100%;
     color: whitesmoke;
@@ -343,10 +356,10 @@ p{
     text-align: right;*/
 }
 /*Productos.html*/
-.Productos{
+/*.Productos{
     background-image: linear-gradient(to top, black, gray);
 }
-/*.nav_grid_Productos{
+.nav_grid_Productos{
     background-color: red;
     width:  100%;
     height: 75px;
@@ -363,7 +376,7 @@ p{
     height: 100px;
     grid-auto-rows: minmax(100px, auto);
     grid-template-areas: "section section section section";
-}*/
+}
 .compras{
     text-align: right;
     position:static;
@@ -377,19 +390,16 @@ p{
     grid-row-gap: 15%;
     margin-left: -9%;
 }
- /*.col{
-     margin-top: 0%;
- }*/
+
 .h1Productos{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: whitesmoke;
-    font-size: /*250*/350%;
+    font-size: 250 350%;
     margin-top: 10%;
     padding-bottom: 3%;
     font-weight: bold;
-}
-/*img-circle */
+}*/
 .publicacionesGTR{
     margin-left: 35%;
     width: 30%;
@@ -414,20 +424,21 @@ p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: whitesmoke;
     margin-left: 35%;
-}*/
+}
 .repuestos{
     padding-bottom: 3%;
-    /*font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: /*125 225%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 125 225%;
     list-style-type: none;
-    text-align: center;*/
-}
+    text-align: center;
+}*/
 .row-1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: /*125*/ 220%;
     list-style-type: none;
     text-align: center;
     transition: all 1s;
+    padding-bottom: 0.5%;
 }
 .row-1:hover{
     font-size: 300%;
@@ -435,8 +446,8 @@ p{
 .productosdes{
     font-family:Verdana, Geneva, Tahoma, sans-serif;    
     color: whitesmoke;
-    font-size: 125%;
-    padding-top: 2%;
+    font-size: 250%;
+    padding-top: 3%;
 }
 .footerProd {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -508,18 +519,18 @@ p{
     
 }*/
 #Servicios  img{
-    width: 100%;
-    padding: 30%;
+    width: 80%;
+    padding: 25%;
     transition: all 1s;
     
 }
 #Servicios col-lg-4{
     margin: 0;
-    padding-bottom: 40%;
+   
 }
 #Servicios img:hover{
-    width: 110%;
-    border: 25px solid gray;
+    width: 90%;
+    border: 20px solid gray;
 }
 /*.FirstRow{
     width: 40%;
@@ -664,7 +675,7 @@ p{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     position:sticky;
     font-size: 100%;
-}*/
+}
 header {
     font-family:Verdana, Geneva, Tahoma, sans-serif; 
     color: whitesmoke;
@@ -681,7 +692,7 @@ header {
     display: grid;
     grid-row-gap: 15%;
 }
-/*.h1C {
+.h1C {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 250%;
     color: whitesmoke;
@@ -714,7 +725,7 @@ header {
 }
 iframe{
     display: block;
-    margin-left: 23%;
+    margin-left: 17%;
     padding-top: 5%;
 }
 footer {font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -723,7 +734,24 @@ footer {font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: right;
 }
 /*catálogo de repuestos dentro de Porductos.html*/
-.distribuciones{
+#Distribuciones{
+    background-color: white;
+}
+#Distribuciones img{
+    width: 70%;
+    display: flex;
+    margin: auto;
+    height: 80%;
+}
+#Distribuciones h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: white; 
+    font-weight: bold;
+    text-align: center;
+    font-size: 200%;
+    color: black;
+}
+/*.distribuciones{
     background-image: linear-gradient(to top, black, gray);
 }
 .menuD{
@@ -762,19 +790,15 @@ footer {font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 7%;
     padding-bottom: 30px;
     padding-top: 30px;
-}
-h2 {
+}*/
+/*h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 150%;
     text-align: center;
     color: whitesmoke;
     padding-bottom: 30px;
-    
-}
-ul{
-    list-style-type: none; 
-}
-.mercedesbenzDistribucion{
+}*/
+/*.mercedesbenzDistribucion{
     Display: Flex;
     Flex-direction: row;
     Justify-content: center;
@@ -785,9 +809,9 @@ ul{
     height: 300px;
     padding-right: 180px;
     padding-left: 110px;
-}
+}*/
 /*pie de foto para las imágenes de las distribuciones de Mercedes Benz*/
-.kitDMB{
+/*.kitDMB{
     Display: Flex;
     Flex-direction: row;
     Justify-content: Center;
@@ -798,8 +822,8 @@ ul{
     color: whitesmoke;
     padding-right: 150px;
     padding-left: 110px;
-}
-.bmwDistribuciones{
+}*/
+/*.bmwDistribuciones{
     Display: Flex;
     Flex-direction: row;
     Justify-content: Center;
@@ -816,8 +840,9 @@ ul{
     Flex-direction: row;
     Justify-content: Center;
     Align-items: center;
-}/*pie de foto para las imágenes de las distribuciones de BMW*/
-.kitBMW h4{
+}*/
+/*pie de foto para las imágenes de las distribuciones de BMW*/
+/*.kitBMW h4{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: whitesmoke;
     padding-right: 250px;
@@ -834,8 +859,9 @@ ul{
     height: 300px;
     padding-right: 180px;
     padding-left: 115px;
-}/*pie de foto para las imágenes de las distribuciones Audi*/
-.kitAUDI-VW{
+}*/
+/*pie de foto para las imágenes de las distribuciones Audi*/
+/*.kitAUDI-VW{
     Display: Flex;
     Flex-direction: row;
     Justify-content: Center;
@@ -858,9 +884,9 @@ ul{
     height: 300px;
     padding-right: 180px;
     padding-left: 115px;
-}
+}*/
 /*pie de foto para las imágenes de las distribuciones Alfa Romeo y Fiat*/
-.kitAlfa{
+/*.kitAlfa{
     Display: Flex;
     Flex-direction: row;
     Justify-content: Center;
@@ -872,9 +898,9 @@ ul{
     padding-right: 150px;
     padding-left: 110px;
     flex-direction: column;
-}
+}*/
 /*catálogo de repuestos dentro de Porductos.html*/
-.baterias{
+/*.baterias{
     background-color: gray;
     height: 25%;
 }
@@ -882,7 +908,7 @@ ul{
     background-color: red;
     width: 100%;
     height: 20px;
-}
+}*/
 /*.nav_grid_battery{
     display: grid;
     background-color: red;
@@ -931,12 +957,17 @@ ul{
     width: 100%;
     background-color: red;
 }*/
-#Bateria{
+#BatteryB    img{
+    width: 70%;
+    height: 80%;
+    display: flex;
+    margin-left: 20%;
     
-} .h1N{
+}
+.h1N{
     color: white;  
 }
-.slogan_baterias{
+/*.slogan_baterias{
     padding-top: 1%;
     background-image: gray;
 }
@@ -964,4 +995,7 @@ ul{
     grid-template-columns:75px 80px 105px;
     grid-template-rows: 100px 50px 75px;
     background-color: whitesmoke;
-}
+}*/
+/*Frenos*/
+
+
