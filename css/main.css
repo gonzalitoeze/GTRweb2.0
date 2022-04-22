@@ -1,0 +1,358 @@
+@charset "UTF-8";
+.container-fluid {
+  background-image: linear-gradient(to bottom, gray, black);
+  width: 100%; }
+
+header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: sticky;
+  top: 0%;
+  display: block; }
+
+ul {
+  list-style-type: none; }
+
+.compras1 {
+  display: flex;
+  justify-content: end;
+  justify-items: end;
+  align-items: end;
+  align-content: end;
+  text-align: end;
+  padding-top: 2%; }
+
+.foto {
+  width: 2%;
+  padding-bottom: 1%;
+  transition: all 250ms; }
+  .foto:hover {
+    width: 2.5%; }
+
+.imagen_Index {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  margin-left: 19%;
+  width: 60%;
+  height: 82%;
+  transition: all 2s; }
+
+.imagen_Index:hover {
+  height: 87%;
+  width: 64%; }
+
+.sectionIndex {
+  display: grid;
+  grid-template-columns: 100%; }
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: red;
+  font-size: 450%;
+  font-weight: bold;
+  text-align: center; }
+
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: 280%;
+  text-align: center;
+  padding-bottom: 5%; }
+
+/*.container{
+    background-color: red;
+    width: 100%;
+    height: 75px;
+}*/
+.col {
+  background-color: red;
+  width: 100%;
+  height: 75px;
+  font-size: 200%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  align-items: center;
+  padding-top: 1.5%;
+  transition: all 500ms; }
+  .col:hover {
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    font-weight: bold; }
+
+a {
+  color: black;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+.footerIndex {
+  background-image: linear-gradient(to bottom black gray);
+  width: 100%; }
+
+.footer_index {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: 70%;
+  text-align: right;
+  padding-top: 10%; }
+
+/*tamaño tablet*/
+/*@media screen(max-width:768px){
+
+    .InicioIndex{
+        grid-template-columns: repeat(3, 100fr);
+        height: 100%;
+        grid-template-areas: 
+        "header header header"
+        "main main main"
+        "footer footer footer"
+    }
+    .compras{
+        grid-template-columns: auto;
+        align-items: right;
+        justify-content: right;
+    }
+    .GridSocialIndex{
+        grid-template-columns: repeat(4, 20%);
+        align-items: center;
+        justify-content:center;
+        
+    }
+    header{
+        grid-area: header;
+        background-color: none;
+    }
+
+    .imagen_Index{
+        grid-template-columns: repeat(4, 20%);
+        
+    }
+    .h1I{
+        font-size: 100%;
+        margin-right: 10%;
+    }
+    .h3I{
+        font-size: 100%;
+        margin-right: 10%;
+    }
+    .nav_grid_index{
+        grid-template-columns: repeat(4, 75px);
+        width: 99%;
+        grid-template-areas: 
+        "nav nav nav"
+    }
+    .navGridIndex_ul{
+        grid-template-columns: repeat(4, 105px);
+        align-items: center;
+        justify-content: center;
+    }
+    .navGridIndex_a{
+        font-size: 12px;
+    }
+    .footerIndex{
+        background-image: black;
+        grid-template-columns: repeat(4, 105px);
+    }
+    .footerIndex{
+        background-image: black;
+        grid-template-areas: "footer footer footer";
+        grid-area: footer;
+        width: 100%;  
+    }
+}*/
+main {
+  margin-top: -8%; }
+
+.h1N {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: whitesmoke;
+  font-size: 350%;
+  margin-top: 0%;
+  padding-bottom: 2%;
+  font-weight: bold; }
+
+h3 {
+  font-size: 250%;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: whitesmoke;
+  font-weight: lighter;
+  padding-bottom: 2%; }
+
+p {
+  text-align: center;
+  align-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 200%;
+  color: whitesmoke;
+  margin-left: 4%;
+  margin-right: 4%;
+  padding-bottom: 2%; }
+
+#imagen_nosotros img {
+  display: flex;
+  width: 100%;
+  height: 65%;
+  margin-left: 20%; }
+
+.footerN {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: 70%;
+  text-align: right;
+  padding-top: 10%; }
+
+.publicacionesGTR {
+  margin-left: 35%;
+  width: 30%;
+  height: 30%;
+  padding-bottom: 5%;
+  transition: all 2s; }
+  .publicacionesGTR:hover {
+    width: 35%;
+    height: 35%; }
+
+.row-1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 220%;
+  list-style-type: none;
+  text-align: center;
+  transition: all 1s;
+  padding-bottom: 0.5%; }
+  .row-1:hover {
+    font-size: 300%; }
+
+.productosdes {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: whitesmoke;
+  font-size: 250%;
+  padding-top: 3%; }
+
+.footerProd {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: 10%;
+  text-align: right;
+  padding-top: 10%; }
+
+#Servicios img {
+  width: 80%;
+  padding: 25%;
+  transition: all 1s; }
+  #Servicios img:hover {
+    width: 90%;
+    border: 20px solid gray; }
+
+.footerS {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: whitesmoke;
+  font-size: 100%;
+  text-align: right;
+  background-image: black;
+  padding-top: 19.99%; }
+
+/*@media screen and (max-width:768px) {
+
+    .Servicios{
+        grid-template-columns: repeat(3, 100fr);
+        height: 100%;
+        grid-template-areas: 
+        "header header header"
+        "main main main"
+        "section section section"
+        "footer footer footer"
+    }
+    .comprasServicios{
+        grid-template-rows: repeat(2, 10px);
+        align-items: right;
+        justify-content: right;
+    }
+    .GridSocialServicios{
+        display: grid;
+        grid-row-start: auto;
+        justify-content:start;
+        padding-top: 20%;
+    }
+    .h1S{
+        font-size: 20px;
+    }
+    
+    .h3S{
+        font-size: 10px;
+    }
+
+    .textoServicios{
+        font-size: 5px;
+    }
+    .GridImagenS {
+        display: grid;
+        grid-template-columns: repeat(3, 20%);
+        grid-auto-rows: 30%;
+        padding-left: 25%;
+        margin-top: 5%;
+        margin-left: 10%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+    }
+    .FirstRow{
+        width: 100%;
+    }
+    .SecondRow{
+        width: 100%;
+        }
+    .ThirdRow{
+        width: 100%;
+    }
+}*/
+.formulario {
+  list-style-type: none;
+  width: 450px;
+  margin-top: 5%;
+  margin-left: 40%;
+  padding: 1%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  box-sizing: border-box;
+  border-radius: 10px; }
+
+iframe {
+  display: block;
+  margin-left: 17%;
+  padding-top: 5%; }
+
+footer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: whitesmoke;
+  font-size: 100%;
+  text-align: right; }
+
+/*catálogo de repuestos dentro de Porductos.html*/
+#Distribuciones {
+  background-color: white; }
+
+#Distribuciones img {
+  width: 70%;
+  display: flex;
+  margin: auto;
+  height: 80%; }
+
+#Distribuciones h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 200%;
+  color: black; }
+
+#BatteryB img {
+  width: 70%;
+  height: 80%;
+  display: flex;
+  margin-left: 20%; }
+
+.h1N {
+  color: white; }
