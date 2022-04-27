@@ -60,11 +60,13 @@ h3 {
   text-align: center;
   padding-bottom: 5%; }
 
-/*.container{
-    background-color: red;
-    width: 100%;
-    height: 75px;
-}*/
+.container-fluid1{
+  background-color: red;
+  height: 75px;
+}
+.row    .col    a   li  ul{
+  display: none;
+}
 .col {
   background-color: red;
   width: 100%;
@@ -88,17 +90,18 @@ a {
 a:hover {
   text-decoration: none; }
 
-.footerIndex {
-  background-image: linear-gradient(to bottom black gray);
-  width: 100%; }
-
-.footer_index {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: white;
-  font-size: 70%;
-  text-align: right;
-  padding-top: 10%; }
-
+footer{
+    background-color: black;
+    height: 115px;
+    margin-top: 15%;}
+    #FooterProd a{color: white;}
+    #FooterProd h3{
+      font-size: 180%; text-align: start;
+    }
+    h6{
+      color: gray;
+      text-align: end;
+    }
 /*tamaño tablet*/
 /*@media screen(max-width:768px){
 
@@ -197,15 +200,18 @@ p {
   display: flex;
   width: 100%;
   height: 65%;
-  margin-left: 20%; }
+  margin-left: 23%; }
+.strong{
+    margin-top: -20%;
+}
 
-.footerN {
+/*.footerN {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
   font-size: 70%;
   text-align: right;
   padding-top: 10%; }
-
+*/
 .publicacionesGTR {
   margin-left: 35%;
   width: 30%;
@@ -216,12 +222,12 @@ p {
     width: 35%;
     height: 35%; }
 
-.row-1 {
+.row-1{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 220%;
+  font-size: 200%;
   list-style-type: none;
   text-align: center;
-  transition: all 1s;
+  transition: all 300ms;
   padding-bottom: 0.5%; }
   .row-1:hover {
     font-size: 300%; }
@@ -232,13 +238,13 @@ p {
   font-size: 250%;
   padding-top: 3%; }
 
-.footerProd {
+/*.footerProd {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
   font-size: 10%;
   text-align: right;
   padding-top: 10%; }
-
+*/
 #Servicios img {
   width: 80%;
   padding: 25%;
@@ -247,14 +253,15 @@ p {
     width: 90%;
     border: 20px solid gray; }
 
-.footerS {
+/*.footerS {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: whitesmoke;
   font-size: 100%;
   text-align: right;
-  background-image: black;
+  background-color: black;
+  height: 15%;
   padding-top: 19.99%; }
-
+*/
 /*@media screen and (max-width:768px) {
 
     .Servicios{
@@ -324,12 +331,12 @@ iframe {
   margin-left: 17%;
   padding-top: 5%; }
 
-footer {
+/*footer {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: whitesmoke;
   font-size: 100%;
   text-align: right; }
-
+*/
 /*catálogo de repuestos dentro de Porductos.html*/
 #Distribuciones {
   background-color: white; }
