@@ -1,0 +1,23 @@
+header{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: sticky;
+    top: 0%;
+    display: block;
+    ul{
+    list-style-type: none; 
+    .compras1{
+    display: flex;
+    justify-content: end;
+    justify-items:  end;
+    align-items: end;
+    align-content:end;
+    text-align: end;
+    padding-top: 2%;}
+    }
+}
+.foto{
+    width: 2%;
+    padding-bottom: 1%;
+    transition: all 250ms;
+        &:hover{
+        width: 2.5%;}}
