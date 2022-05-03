@@ -80,11 +80,9 @@ header {
   display: flex;
   margin-left: 20%; }
 
-#Filtros
-.Filtros {
+#Filtros {
   background-color: white; }
-  #Filtros
-.Filtros img {
+  #Filtros img {
     display: flex;
     width: 70%;
     margin: auto; }
@@ -95,6 +93,31 @@ header {
     display: flex;
     width: 50%;
     height: 80%;
+    margin: auto; }
+
+#Encendido {
+  background-color: white; }
+  #Encendido .h3N {
+    margin-bottom: 1%;
+    margin-top: 5%; }
+  #Encendido img {
+    display: flex;
+    width: 50%;
+    margin: auto; }
+
+#Direccion {
+  background-color: white; }
+  #Direccion img {
+    display: flex;
+    width: 80%;
+    margin: auto; }
+
+#Suspension {
+  background-color: white; }
+  #Suspension img {
+    display: flex;
+    width: 80%;
+    height: 60%;
     margin: auto; }
 
 /*Formulario*/

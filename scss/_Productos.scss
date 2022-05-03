@@ -49,8 +49,8 @@
     height: 80%;
     display: flex;
     margin-left: 20%;}
-#Filtros
-    .Filtros{background-color: $colorterciario;
+#Filtros{
+    background-color: $colorterciario;
     img{
     display:flex;
     width:70%;
@@ -62,5 +62,23 @@
         display: flex;
         width: 50%;
         height: 80%;
-        margin: auto;
-    }}
+        margin: auto;}}
+#Encendido{
+    background-color: $colorterciario;
+    .h3N{
+        margin-bottom: 1%;
+        margin-top: 5%;}
+        img{
+        display: flex;
+        width: 50%;
+        margin: auto;}        
+}
+#Direccion{background-color: $colorterciario;
+    img{display: flex;
+        width: 80%;
+        margin: auto;}}
+#Suspension{background-color: $colorterciario;
+    img{display: flex;
+        width: 80%;
+        height: 60%;
+        margin: auto;}}
