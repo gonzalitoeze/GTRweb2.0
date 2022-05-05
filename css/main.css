@@ -74,17 +74,20 @@ header {
     margin: auto;
     height: 80%; }
 
-#BatteryB img {
-  width: 70%;
-  height: 80%;
-  display: flex;
-  margin-left: 20%; }
+#BatteryB {
+  background-color: white; }
+  #BatteryB img {
+    width: 70%;
+    height: 80%;
+    display: flex;
+    margin: auto; }
 
 #Filtros {
   background-color: white; }
   #Filtros img {
-    display: flex;
     width: 70%;
+    height: auto;
+    display: flex;
     margin: auto; }
 
 #Frenos {
@@ -100,10 +103,10 @@ header {
   #Encendido .h3N {
     margin-bottom: 1%;
     margin-top: 5%; }
-  #Encendido img {
-    display: flex;
-    width: 50%;
-    margin: auto; }
+    #Encendido .h3N img {
+      display: flex;
+      width: 50%;
+      margin: auto; }
 
 #Direccion {
   background-color: white; }

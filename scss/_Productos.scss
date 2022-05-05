@@ -44,18 +44,20 @@
     display: flex;
     margin: auto;
     height: 80%;}}
-#BatteryB img{
+#BatteryB{
+    background-color: $colorterciario;
+    img{
     width: 70%;
     height: 80%;
     display: flex;
-    margin-left: 20%;}
+    margin: auto;}}
 #Filtros{
     background-color: $colorterciario;
     img{
-    display:flex;
-    width:70%;
+    width: 70%;
+    height: auto;
+    display: flex;
     margin: auto;}}
-
 #Frenos{
     background-color: $colorterciario;
     img{
@@ -67,11 +69,12 @@
     background-color: $colorterciario;
     .h3N{
         margin-bottom: 1%;
-        margin-top: 5%;}
+        margin-top: 5%;
         img{
         display: flex;
         width: 50%;
-        margin: auto;}        
+        margin: auto;} 
+    }       
 }
 #Direccion{background-color: $colorterciario;
     img{display: flex;

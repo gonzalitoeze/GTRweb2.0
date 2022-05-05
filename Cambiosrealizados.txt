@@ -1,6 +1,0 @@
-CODERHOUSE
-
-Cambios realizado documentos HTML:
-Agregué keywords tales como GTR, Performance, taller, auto, automotriz, mecánica, mecánico, potenciación, productos, repuestos, servicios, 1/4 de milla, gtrperformance@gmail.com"
-Descripciones: "Taller dedicado a la industria automotriz. Contamos con la solución para los problemas de tu auto"
-Títulos para cada una de las páginas (GTR, Nosotros, Productos, Servicios, Contactos, Baterías, Distribuciones, Frenos)
