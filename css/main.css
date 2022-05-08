@@ -63,13 +63,13 @@ header {
 .productosdes {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: whitesmoke;
-  font-size: 250%;
+  font-size: 220%;
   padding-top: 3%; }
 
 #Distribuciones {
   background-color: white; }
   #Distribuciones img {
-    width: 70%;
+    width: 80%;
     display: flex;
     margin: auto;
     height: 80%; }
@@ -95,24 +95,23 @@ header {
   #Frenos img {
     display: flex;
     width: 50%;
-    height: 80%;
+    height: auto;
     margin: auto; }
 
 #Encendido {
   background-color: white; }
-  #Encendido .h3N {
-    margin-bottom: 1%;
-    margin-top: 5%; }
-    #Encendido .h3N img {
-      display: flex;
-      width: 50%;
-      margin: auto; }
+  #Encendido img {
+    margin: auto;
+    display: flex;
+    width: 50%;
+    margin: auto; }
 
 #Direccion {
   background-color: white; }
   #Direccion img {
     display: flex;
     width: 80%;
+    height: auto;
     margin: auto; }
 
 #Suspension {
@@ -143,6 +142,22 @@ iframe {
 body {
   background-image: linear-gradient(to bottom, gray, black);
   width: 100%; }
+
+#opciones {
+  background-color: whitesmoke; }
+
+.navbar-toggler-icon {
+  background-color: whitesmoke; }
+
+.navbar-brand {
+  background-color: whitesmoke; }
+
+.navbar-nav {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 250%;
+  color: blue;
+  text-align: center;
+  text-decoration: none; }
 
 .sectionIndex {
   display: grid;
@@ -206,23 +221,65 @@ h3 {
     .menu a:hover {
       text-decoration: none; }
 
-/*tamaño tablet*/
-@media screen and (max-width: 400px) {
+/*tamaño mobile*/
+@media screen and (max-width: 390px) {
   body {
     background-image: black;
     width: 100%; }
   .Titulos {
     font-size: 50%;
     text-align: center; }
-  .compracarrito {
-    width: 80%; }
-  .icgoogle {
-    width: 80%; }
+  .icono {
+    margin-top: 13%;
+    width: 20%;
+    display: flex; }
   .foto {
     width: 5%;
-    padding-bottom: 2%; }
+    margin-top: 2%;
+    margin-left: -5%; }
   .items {
-    margin-top: 10%; } }
+    margin-top: 10%; }
+  main .h1N {
+    font-size: 220%; }
+    main .h1N .text {
+      font-size: 10%; }
+  .h3N {
+    font-size: 100%; }
+  .repuestos {
+    font-size: 80%; }
+  .menu {
+    width: 100%; }
+  #BatteryB {
+    background-color: white; }
+    #BatteryB img {
+      width: 70%;
+      height: 60%;
+      display: flex;
+      margin: auto; }
+  #Distribuciones {
+    background-color: white; }
+    #Distribuciones img {
+      width: 80%;
+      display: flex;
+      margin: auto;
+      height: 50%; } }
+
+/*tamaño tablet*/
+@media screen and (max-width: 768px) {
+  #BatteryB {
+    background-color: white; }
+    #BatteryB img {
+      width: 70%;
+      height: 60%;
+      display: flex;
+      margin: auto; }
+  #Distribuciones {
+    background-color: white; }
+    #Distribuciones img {
+      width: 80%;
+      display: flex;
+      margin: auto;
+      height: auto; } }
 
 /*Nosotros*/
 main {

@@ -22,7 +22,7 @@
         text-decoration: none;
         list-style-type: none;
         color: black;}
-    &:hover{
+        &:hover{
         text-decoration: none;
         list-style-type: none;
         color: black;
@@ -33,14 +33,14 @@
 .productosdes{
     font-family:Verdana, Geneva, Tahoma, sans-serif;    
     color: whitesmoke;
-    font-size: 250%;
+    font-size: 220%;
     padding-top: 3%;
 }
 
 #Distribuciones {
     background-color: $colorterciario;
     img{
-    width: 70%;
+    width: 80%;
     display: flex;
     margin: auto;
     height: 80%;}}
@@ -63,22 +63,19 @@
     img{
         display: flex;
         width: 50%;
-        height: 80%;
+        height: auto;
         margin: auto;}}
-#Encendido{
-    background-color: $colorterciario;
-    .h3N{
-        margin-bottom: 1%;
-        margin-top: 5%;
+#Encendido{background-color: $colorterciario;
         img{
-        display: flex;
-        width: 50%;
-        margin: auto;} 
-    }       
+            margin: auto;
+            display: flex;
+            width: 50%;
+            margin: auto;}      
 }
 #Direccion{background-color: $colorterciario;
     img{display: flex;
         width: 80%;
+        height: auto;
         margin: auto;}}
 #Suspension{background-color: $colorterciario;
     img{display: flex;
