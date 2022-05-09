@@ -102,8 +102,8 @@ h3{
         display: flex;
     }
     .foto{
-        width: 5%;
-        margin-top: 2%;
+        width: 50%;
+        margin-top: 3%;
         margin-left: -5%;}
     
     .items{margin-top: 10%;}
@@ -134,6 +134,14 @@ h3{
 }
 /*tamaño tablet*/
 @media screen and (max-width:768px) {
+    .foto{
+        width: 3%;
+        margin-top: 2%;
+        margin-left: 0%;
+    
+    #maps{
+        width: 50%;}
+    
     #BatteryB{
         background-color: $colorterciario;
         img{
@@ -149,6 +157,8 @@ h3{
         display: flex;
         margin: auto;
         height: auto;}
+    
+    }
     }
 }
 /*Nosotros*/
