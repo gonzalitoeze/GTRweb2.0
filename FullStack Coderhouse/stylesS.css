@@ -1,0 +1,112 @@
+.Servicios {
+    background-image: linear-gradient(to bottom, gray, black);
+    width: auto;
+    height: 800px;
+}
+
+header  {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    text-align: left;
+}
+.compras{
+    text-align: right;
+    position:static;
+    display: block;
+    
+}
+
+.social {
+    text-align: left;
+    position:fixed;
+    margin-top: 0%;
+    display:block;
+    list-style-type: none; 
+}
+
+main 
+h1     {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    color: whitesmoke;  
+    font-size: 250%;
+    text-align: center;
+}
+h3      {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    font-size: 150%; 
+    color: whitesmoke;
+    text-align: center;
+}
+
+section article{
+    align-content: space-around;
+}
+.bateria{
+    display:block;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.inyeccion{
+    display:block;
+    margin-top: -5%;
+    margin-left: 26%;
+}
+.rueda{
+    display:block;
+    margin-top: -5%;
+    margin-left: 32%;
+}
+.seguro{
+    display:block;
+    margin-top: -5%;
+    margin-left: 38%;
+}
+.amortig{
+    display:block;
+    margin-top: -5%;
+    margin-left: 44%;
+}
+.correa{
+    display:block;
+    margin-top: -5%;
+    margin-left: 50%;
+}
+.caroil{
+    display:block;
+    margin-top: -5%;
+    margin-left: 56%;
+}
+.piston{
+    display:block;
+    margin-top: -5%;
+    margin-left: 62%;
+}
+.obd2{
+    display:block;
+    margin-top: -5%;
+    margin-left: 68%;
+}
+.turbo{
+    display:block;
+    margin-top: -5%;
+    margin-left: 74%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 100%;
+    text-align: right;
+   background-image: black;
+}

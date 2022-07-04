@@ -1,0 +1,64 @@
+<!DOCTYPE html> <!-- solamente para navegador -->
+
+<html lang="es"> <!-- idioma -->
+
+<head> <!--datos importantes del sitio, que no se visualizan en el nav-->
+
+    <meta charset="UTF-8"> <!--genera compatibilidad para que nuestro sitio permita caracteres especiales y "ñ"-->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--permite que nuestro sitio se vea correctamente, tanto en microsoft edge como en chrome-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--adapta nuestros sitios a diferentes dispositivos móviles-->
+
+    <title>Prueba de HTML</title> <!--TITULO DE LA PAGINA-->
+</head>
+<body> <!--CUERPO DE NUESTRO SITIO WEB/TODO LO QUE VEREMOS DENTRO DEL NAV-->
+<!--todo debe estar dentro de las etiquetas body-->
+<p>HOLIPOLI</p>
+</body>
+
+<header><!--encabezado de mi sitio--> </header>
+
+<nav> <!--menú de navegación--> </nav>
+
+<main><!--contenido principal del sitio--></main>
+
+<section> <!--sección o parte del sitio--> </section>
+
+<article> <!-- sección o parte del sitio --></article>
+
+<aside> <!--Al costado del sitio suele usarse para publicidades--></aside>
+
+<footer> <!-- pie de página --> </footer>
+
+<!-- EJEMPLOS -->
+
+<header>
+    <nav</nav>
+
+</header>
+
+<section> 
+    <article> 
+        <h1>Título de noticia</h1>
+        <p>cuerpo de la noticia</p>
+    </article>
+
+
+
+
+    <!--ETIQUETAS DE BLOQUE - OCUPAN TODO LE ANCHO DISPONIBLE Y NO PERMITE QUE NINGUN ELEMENTO SE COLOQUEAL LADO-->
+
+    <H1>título</H1>
+    <h2>titulo</h2>
+    <h3>titulo</h3>
+    <h4>titulo</h4>
+    <h5>titulo</h5>
+    <h6>titulo</h6>
+
+    
+
+
+    <!-- ETIQUETAS DE LINEA - OCUPAN EL ESPACIO MÍNIMO DE SU CONTENIDO Y PERMITE QUE SE COLOQUEN AL LADO-->
+
+</html>

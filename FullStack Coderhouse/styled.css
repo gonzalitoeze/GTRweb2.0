@@ -1,0 +1,39 @@
+.distribuciones{
+    background-image: linear-gradient(to top, black, gray);
+}
+
+.menuD{
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position:sticky;
+    font-size: 100%;
+}
+.comprasD{
+    text-align: right;
+    position:static;
+    top: 0%;
+    display: block;
+}
+.socialD{
+    text-align: left;
+    position:fixed;
+    display:block;
+    list-style-type: none; 
+    margin-top: 0%;
+}
+
+.pD{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 250%;
+    text-align: center;
+    color: whitesmoke;
+    margin-left: 7%;
+}
+.MBD{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;
+    text-align: left;
+    color: whitesmoke;
+    margin-left: 10%;
+    
+}

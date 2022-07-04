@@ -1,0 +1,89 @@
+.Contactos {
+    width: 600;
+    height: 600;
+    background-image: linear-gradient(to top, black, gray);
+}
+
+.menuC{
+    
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position:sticky;
+    font-size: 100%;
+}
+
+
+header {
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    color: whitesmoke;
+    text-align: left;
+   
+}
+
+.comprasC{
+    text-align: right;
+    position:static;
+    top: 0%;
+    display: block;
+    
+}
+
+.socialC{
+    text-align: right;
+    position:fixed;
+    top: 11%;
+    left: 96%;
+    display:block;
+    color: gray;
+    list-style-type: none; 
+    
+
+}   
+
+main
+.h1C {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 250%;
+    color: whitesmoke;
+    text-align:center;
+}
+.h3C {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 125%;
+    text-align: center;
+    color: whitesmoke;
+}
+.pC{
+    text-align: center;
+    font-size: 125%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.formulario{
+list-style-type: none;
+width: 450px;
+margin-top: 5%;
+margin-left: 40%;
+padding: 1%;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+box-sizing: border-box;
+border-radius: 10px;
+}
+
+main
+.maps{
+    margin-left: 28%;
+}
+
+
+
+
+
+footer {font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    font-size: 100%;
+    text-align: right;
+}
