@@ -1,71 +1,141 @@
 @charset "UTF-8";
+body {
+  background-image: linear-gradient(to bottom, gray, black);
+  width: 100%; 
+}
 header {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   position: sticky;
-  top: 0%;
   display: block; }
   header ul {
     list-style-type: none; }
-    header ul .compras1 {
+    .compras1 {
       display: flex;
       justify-content: end;
       justify-items: end;
       align-items: end;
       align-content: end;
-      text-align: end;
+      text-align: end; 
       padding-top: 2%; }
+
 
 .foto {
   width: 2%;
   padding-bottom: 1%;
-  transition: all 250ms; }
-  .foto:hover {
-    width: 2.5%; }
+  transition: all 250ms;
+}
+.foto:hover {
+  width: 2.2%;
+}
+.imagenGTR{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imagen_Index {
+  margin-bottom: 5%;
+  border-radius: 15px;
+  width: 60%;
+  transition: all 2s;
+}
+.imagen_Index:hover {
+  width: 75%;
+}
 
-/*Footer*/
-.container {
-  padding-top: 0%; }
-  .container .items {
-    padding-top: 7%;
-    font-size: 125%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; }
-
-/*Productos*/
-.publicacionesGTR {
-  margin-left: 35%;
-  width: 30%;
-  height: 30%;
-  padding-bottom: 5%;
-  transition: all 2s; }
-  .publicacionesGTR:hover {
-    width: 35%;
-    height: 35%; }
-
-.row-1 {
+h1 {
+  color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 250%;
+  font-weight: bold;
+  text-align: center;
+}
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  text-align: center;
+}
+p {
+  text-align: center;
+  align-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: whitesmoke;
+}
+
+
+footer {
+  margin: 7%;
+}
+
+/* NOSOTROS */
+.title{
+  margin-bottom: 5%;
+}
+.img_nos img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imagenNos{
+  width: 100%;
+  height: 50%;
+  border-radius: 15px;
+}
+.text{
+  margin-top: -35%;
+}
+
+/* PRODUCTOS */
+.publicacionesGTR {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.imagenPublicacionesGTR {
+  width: 35%;
+  margin: 2%;
+  border-radius: 15px;
+  transition: all 1s;
+}
+.imagenPublicacionesGTR:hover {
+  width: 50%;
+}
+.catalogoRepuestos{
+  font-weight: bold;
+  margin-top: 3%;
+}
+.listaRepuestos{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: black;
   list-style-type: none;
   text-align: center;
   transition: all 300ms;
-  padding-bottom: 0.5%; }
-  .row-1 .repuestos {
-    text-decoration: none;
-    list-style-type: none;
-    color: black; }
-  .row-1:hover {
-    text-decoration: none;
-    list-style-type: none;
-    color: black;
-    font-weight: bold;
-    font-size: 300%; }
-
+  margin: 2%;
+  padding-bottom: 0.5%;
+}
+.repuestos {
+  text-decoration: none;
+  list-style-type: none;
+  color: blue;
+  transition: all 300ms;
+}
+.repuestos:hover {
+  text-decoration: none;
+  list-style-type: none;
+  color: blue;
+  font-weight: bold;
+  font-size: 100%;
+}
 .productosdes {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: whitesmoke;
-  font-size: 220%;
-  padding-top: 3%; }
+  text-decoration: none;
+  color: blue;
+  transition: all 300ms;
+}
+.productosdes:hover{
+  font-size: 101%;
+}
 
+/* CATÁLOGO */
 #Distribuciones {
   background-color: white; }
   #Distribuciones img {
@@ -122,26 +192,28 @@ header {
     height: 60%;
     margin: auto; }
 
+/* SERVICIOS */
+#Servicios img {
+  width: 80%;
+  padding: 25%;
+  transition: all 1s;
+}
+#Servicios img:hover {
+  width: 90%;
+  border: 20px solid gray;
+}
+
+/* CONTACTOS */
 /*Formulario*/
 .formulario {
-  list-style-type: none;
-  width: 450px;
-  margin-top: 5%;
-  margin-left: 40%;
-  padding: 1%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
-  box-sizing: border-box;
-  border-radius: 10px; }
-
+  margin: 5%;
+}
 iframe {
   display: block;
   margin-left: 17%;
-  padding-top: 5%; }
-
-body {
-  background-image: linear-gradient(to bottom, gray, black);
-  width: 100%; }
+  margin-top: 10%;
+  border-radius: 15px;
+}
 
 #opciones {
   background-color: whitesmoke; }
@@ -157,45 +229,8 @@ body {
   font-size: 250%;
   color: blue;
   text-align: center;
-  text-decoration: none; }
-
-.sectionIndex {
-  display: grid;
-  grid-template-columns: 100%;
-  transition: all 2s; }
-  .sectionIndex .imagen_Index {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    margin-left: 19%;
-    width: 60%;
-    height: 82%;
-    transition: all 2s; }
-    .sectionIndex .imagen_Index:hover {
-      height: 87%;
-      width: 64%; }
-
-h1 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: red;
-  font-size: 450%;
-  font-weight: bold;
-  text-align: center; }
-
-h3 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: white;
-  font-size: 280%;
-  text-align: center;
-  padding-bottom: 5%; }
-
-.h3N {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: black;
-  font-weight: bold;
-  text-align: center;
-  font-size: 200%; }
+  text-decoration: none;
+}
 
 .menu {
   background-color: red;
@@ -204,7 +239,6 @@ h3 {
     background-color: red;
     width: 100%;
     height: 75px;
-    font-size: 200%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     align-items: center;
@@ -219,36 +253,35 @@ h3 {
     color: black;
     text-decoration: none; }
     .menu a:hover {
+      font-weight: bold;
       text-decoration: none; }
 
 /*tamaño mobile*/
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 320px) {
   body {
     background-image: black;
-    width: 100%; }
-  .Titulos {
-    font-size: 50%;
-    text-align: center; }
-  .icono {
-    margin-top: 13%;
-    width: 20%;
-    display: flex; }
-  .foto {
-    width: 50%;
-    margin-top: 3%;
-    margin-left: -5%; }
-  .items {
-    margin-top: 10%; }
-  main .h1N {
-    font-size: 220%; }
-    main .h1N .text {
-      font-size: 10%; }
-  .h3N {
-    font-size: 100%; }
-  .repuestos {
-    font-size: 80%; }
+  }
+
   .menu {
-    width: 100%; }
+    width: 100%;
+  }
+  .publicacionesGTR {
+    padding-top: 5%;
+    padding-bottom: 10%;
+  }
+  .imagenPublicacionesGTR {
+    width: 55%;
+    margin: 2%;
+    border-radius: 5%;
+    transition: all 1s;
+  }
+  .imagenPublicacionesGTR:hover {
+    width: 80%;
+  }
+  .catalogoRepuestos {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
   #BatteryB {
     background-color: white; }
     #BatteryB img {
@@ -262,7 +295,11 @@ h3 {
       width: 80%;
       display: flex;
       margin: auto;
-      height: 50%; } }
+      height: 50%; }
+footer{
+  padding-top: 20%;
+}
+}
 
 /*tamaño tablet*/
 @media screen and (max-width: 768px) {
@@ -286,52 +323,3 @@ h3 {
         display: flex;
         margin: auto;
         height: auto; } }
-
-/*Nosotros*/
-main {
-  margin-top: -10%; }
-
-.h1N {
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: whitesmoke;
-  font-size: 350%;
-  margin-top: 0%;
-  padding-bottom: 2%;
-  font-weight: bold; }
-
-h3 {
-  font-size: 250%;
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: white;
-  font-weight: lighter;
-  padding-bottom: 1%; }
-
-p {
-  text-align: center;
-  align-content: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 200%;
-  color: whitesmoke;
-  margin-left: 4%;
-  margin-right: 4%;
-  padding-bottom: 2%; }
-
-#imagen_nosotros .img_nos img {
-  display: flex;
-  width: 100%;
-  height: 50%;
-  margin-left: 20%; }
-
-.text {
-  margin-top: -30%; }
-
-/*Servicios*/
-#Servicios img {
-  width: 80%;
-  padding: 25%;
-  transition: all 1s; }
-  #Servicios img:hover {
-    width: 90%;
-    border: 20px solid gray; }
