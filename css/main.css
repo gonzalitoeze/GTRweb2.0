@@ -243,13 +243,15 @@ footer {
 .formulario {
   margin: 5%;
 }
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 iframe {
-  display: block;
-  margin-left: 17%;
-  margin-top: 10%;
+  margin-top: 8%;
   border-radius: 15px;
 }
-
 #opciones {
   background-color: whitesmoke; }
 
@@ -351,6 +353,13 @@ footer{
     margin-top: 15%;
   }
   .menu {
+    width: 100%;
+  }
+  .imagen_Index {
+    width: 80%;
+    transition: all 1s;
+  }
+  .imagen_Index:hover {
     width: 100%;
   }
   .publicacionesGTR {

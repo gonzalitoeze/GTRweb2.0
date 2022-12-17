@@ -13,6 +13,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link   rel="stylesheet" href="../css/main.css">
     <form action="/my-handling-form-page" method="post"></form>
+    <!-- SCRIPTS & CSS - SWEETALERT2 -->
+    <script defer src="../js/contactos.js"></script>
+    <script src="../assets/sweet/sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="../assets/sweet/sweetalert2.css">
 </head>
 <body class="container-fluid">
     <header>
@@ -49,7 +53,7 @@
             <form action="" class="formulario">
                 <div class="mb-3">
                   <!-- <label for="exampleInputEmail1" class="form-label"></label> -->
-                  <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre y apellido" required>
+                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre y apellido" required>
                 </div>
                 <div class="mb-3">
                   <!-- <label for="exampleInputEmail1" class="form-label"></label> -->
@@ -63,21 +67,21 @@
                   <!-- <label for="exampleInputPassword1" class="form-label"></label> -->
                   <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Mensaje" required>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary" id="enviar">Submit</button>
             </form>
         </section>
     </main>
-    <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.7696461257715!2d-58.480013285051186!3d-34.63526106667419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc99a79a62c5b%3A0x470a0bbe4d89dac4!2sEnsenada%20194%2C%20C1407KED%20CABA!5e0!3m2!1ses!2sar!4v1647010153717!5m2!1ses!2sar" width=70% height="350"></iframe></div>
+    <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.7696461257715!2d-58.480013285051186!3d-34.63526106667419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc99a79a62c5b%3A0x470a0bbe4d89dac4!2sEnsenada%20194%2C%20C1407KED%20CABA!5e0!3m2!1ses!2sar!4v1647010153717!5m2!1ses!2sar" width=70% height="350"></iframe></div>
     <footer class="container">
         <div class="items">
-          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item"><a href="Repuestos/baterias.html" class="nav-link px-2 text-muted">Baterías</a></li>
-            <li class="nav-item"><a href="Repuestos/distribuciones.html" class="nav-link px-2 text-muted">Distribuciones</a></li>
-            <li class="nav-item"><a href="Repuestos/filtros" class="nav-link px-2 text-muted">Filtros</a></li>
-            <li class="nav-item"><a href="Repuestos/frenos.html" class="nav-link px-2 text-muted">Frenos</a></li>
-            <li class="nav-item"><a href="Repuestos/encendido.html" class="nav-link px-2 text-muted">Encendido</a></li>
-            <li class="nav-item"><a href="Repuestos/direccion-suspension.html" class="nav-link px-2 text-muted">Dirección - Suspensión</a></li>
-            <li class="nav-item"><a href="Repuestos/retenedores.html" class="nav-link px-2 text-muted">Retenes y más</a></li>
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="Repuestos/baterias.html" class="nav-link px-2 text-muted">Baterías</a></li>
+                <li class="nav-item"><a href="Repuestos/distribuciones.html" class="nav-link px-2 text-muted">Distribuciones</a></li>
+                <li class="nav-item"><a href="Repuestos/filtros" class="nav-link px-2 text-muted">Filtros</a></li>
+                <li class="nav-item"><a href="Repuestos/frenos.html" class="nav-link px-2 text-muted">Frenos</a></li>
+                <li class="nav-item"><a href="Repuestos/encendido.html" class="nav-link px-2 text-muted">Encendido</a></li>
+                <li class="nav-item"><a href="Repuestos/direccion-suspension.html" class="nav-link px-2 text-muted">Dirección - Suspensión</a></li>
+                <li class="nav-item"><a href="Repuestos/retenedores.html" class="nav-link px-2 text-muted">Retenes y más</a></li>
             </ul>
         </div>
         <p class="text-center text-muted">&copy; GTR GROUP 2022</p>
