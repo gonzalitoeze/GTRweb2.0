@@ -1,7 +1,6 @@
 @charset "UTF-8";
 body {
   background-image: linear-gradient(to bottom, gray, black);
-  width: 100%; 
 }
 header {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -59,7 +58,6 @@ p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: whitesmoke;
 }
-
 
 footer {
   margin: 7%;
@@ -136,48 +134,83 @@ footer {
 }
 
 /* CATÁLOGO */
-#Distribuciones {
-  background-color: white; }
-  #Distribuciones img {
-    width: 80%;
-    display: flex;
-    margin: auto;
-    height: 80%; }
-
 #BatteryB {
-  background-color: white; }
-  #BatteryB img {
-    width: 70%;
-    height: 80%;
-    display: flex;
-    margin: auto; }
+  background-color: white;
+  padding-top: 5%;
+  padding-bottom: 5%; }
+#BatteryB h3{
+  color: black;
+  font-weight: bold; }
+#BatteryB img {
+  width: 70%;
+  height: 80%;
+  display: flex;
+  padding-bottom: 20%; }
+
+#Distribuciones {
+  background-color: white;
+  margin-bottom: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%; }
+  #Distribuciones h3{
+    color: black;
+    font-weight: bold; }
+    #Distribuciones img {
+      padding-top: 10%;
+      width: 80%;
+      display: flex;
+      margin: auto;
+      height: 80%; }
 
 #Filtros {
-  background-color: white; }
+  background-color: white;
+  margin-bottom: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%; }
   #Filtros img {
     width: 70%;
     height: auto;
     display: flex;
-    margin: auto; }
+    margin-top: 5%; }
+    #Filtros h3{
+      color: black;
+      font-weight: bold;
+    }
 
 #Frenos {
-  background-color: white; }
+  background-color: white;
+  margin-bottom: 10%;
+  padding-bottom: 5%;
+  padding-top: 5%; }
   #Frenos img {
     display: flex;
     width: 50%;
     height: auto;
     margin: auto; }
+    #Frenos h3 {
+      color: black;
+      font-weight: bold;
+    }
 
 #Encendido {
-  background-color: white; }
+  background-color: white;
+  margin-bottom: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%; }
   #Encendido img {
     margin: auto;
     display: flex;
     width: 50%;
     margin: auto; }
+    #Encendido h3 {
+      color: black;
+      font-weight: bold; }
 
 #Direccion {
-  background-color: white; }
+  background-color: white;
+  margin-bottom: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%; }
   #Direccion img {
     display: flex;
     width: 80%;
@@ -185,7 +218,9 @@ footer {
     margin: auto; }
 
 #Suspension {
-  background-color: white; }
+  background-color: white;
+  padding-top: 5%;
+  padding-bottom: 5%; }
   #Suspension img {
     display: flex;
     width: 80%;
@@ -256,7 +291,7 @@ iframe {
       font-weight: bold;
       text-decoration: none; }
 
-/*tamaño mobile*/
+/* MOBILE DEVICE */
 @media screen and (max-width: 320px) {
   body {
     background-image: black;
@@ -288,19 +323,81 @@ iframe {
       width: 70%;
       height: 60%;
       display: flex;
-      margin: auto; }
+      margin: auto; 
+    }
   #Distribuciones {
-    background-color: white; }
+    background-color: white;
+    padding-bottom: 5%; }
     #Distribuciones img {
-      width: 80%;
-      display: flex;
-      margin: auto;
-      height: 50%; }
+      padding-bottom: 5%;
+    }
+  #Filtros h3 {
+    color: black;
+  }
 footer{
   padding-top: 20%;
 }
 }
 
+/* MOBILE DEVICE */
+@media screen and (max-width: 420px) {
+  body {
+    background-image: black;
+  }
+  .socialIndex{
+    margin-bottom: 40%;
+  }
+  .social{
+    margin-top: 15%;
+  }
+  .menu {
+    width: 100%;
+  }
+  .publicacionesGTR {
+    padding-top: 5%;
+    padding-bottom: 10%;
+  }
+  .imagenPublicacionesGTR {
+    width: 55%;
+    margin: 2%;
+    border-radius: 5%;
+    transition: all 1s;
+  }
+  .imagenPublicacionesGTR:hover {
+    width: 80%;
+  }
+  .catalogoRepuestos {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  #BatteryB {
+    background-color: white; }
+    #BatteryB img {
+      width: 70%;
+      height: 50%;
+      padding-bottom: 5%; }
+      #BatteryB h3{
+        font-size: 100%;
+      }
+  #Distribuciones {
+    background-color: white;
+    margin-bottom: 10%;
+    padding-bottom: 25%; }
+    #Distribuciones img {
+      width: 100%; }
+      h3{
+        font-size: 100%;
+      }
+  #Filtros {
+    background-color: white;
+    padding-bottom: 5%; 
+    padding-top: 5%; 
+    margin-bottom: 10%;}
+    #Filtros img {
+      width: 100%; }
+  footer{
+    padding-top: 45%;
+  }}
 /*tamaño tablet*/
 @media screen and (max-width: 768px) {
   .foto {
